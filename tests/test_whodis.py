@@ -1,4 +1,4 @@
-from whodis import whodis
+import whodis.whodis
 
 def test_class_exists():
-    whodis.main
+    whodis.whodis.main()
