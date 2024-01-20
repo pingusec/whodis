@@ -18,7 +18,7 @@ def main():
 
 # Method that handles fake login page option    
 def fakeLoginHandler():
-    ui_utils.clear(3) # Clearing prev menu
+    ui_utils.clear(5) # Clearing prev menu
     
     print(ui_utils.getFakeLoginMenuOptions())
     user_choice = typer.prompt('> Please choose a login page')

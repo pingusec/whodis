@@ -34,8 +34,9 @@ __      _| |__   ___   __| (_)___
  \ V  V /| | | | (_) | (_| | \__ \
   \_/\_/ |_| |_|\___/ \__,_|_|___/
 -----------------------------------[cyan1]
+[white]Please choose an option:
 
-[white]1) Fake login page[white]
+1) Fake login page[white]
 '''
     return title
 
