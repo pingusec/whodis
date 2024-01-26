@@ -22,7 +22,9 @@ def fakeLoginHandler():
     
     print(ui_utils.getFakeLoginMenuOptions())
     user_choice = typer.prompt('> Please choose a login page')
-    
 
+    match user_choice:
+        case '1':
+            print('spool up test website')
 if __name__ == "__main__":
     app()
